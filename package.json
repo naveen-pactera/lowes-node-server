@@ -1,0 +1,26 @@
+{
+  "name": "lowes-shrinkage-detection",
+  "version": "1.0.0",
+  "description": "This web application lists all the incidents related to shrinkages, non-scans, mis-scans etc and handles activities related to them",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Naveen Rayuni",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "nodemailer": "^6.7.3"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3",
+    "nodemon": "^2.0.15"
+  }
+}
